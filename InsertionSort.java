@@ -1,15 +1,6 @@
-package com.vaish.Sorting.InsertionSort;
-
 import java.util.Arrays;
 
 public class InsertionSort {
-
-    //Time Complexity :
-    //                   Best: O(N)         //when array is sorted
-    //                   Worst: O(N^2)     //n is size of array //descending sorted
-    // i will run till n-2 because j+1 and j will go out of bound
-    //no. of swaps reduced as compared to bubble sort
-
     public static void main(String[] args) {
         int[] arr={4,5,1,2,3};
         insertionSort(arr);
