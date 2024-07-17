@@ -1,13 +1,3 @@
-package com.vaish.Sorting.BubbleSort;
-
-// with the first pass through the array ,the largest element came at the end
-// with second pass ,second largest element and so on...
-// also known as " Sinking Sort / Exchange Sort "
-        //Time Complexity :
-        //                   Best: O(N)         //when array is sorted
-        //                   Worst: O(N^2)     //n is size of array     //array sorted in opposite direction
-        //Space Complexity : O(1) // constant // no extra space required i.e., copying the array etc. not required
-
 import java.util.Arrays;
 
 public class BubbleSort {
